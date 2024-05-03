@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.notbronwyn.oldgl.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"WindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
