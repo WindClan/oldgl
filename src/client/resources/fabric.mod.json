@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "oldgl",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"name": "OldGL",
 	"description": "Downgrades Minecraft's OpenGL",
 	"authors": [
