@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "oldgl",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"name": "OldGL",
 	"description": "Downgrades Minecraft's OpenGL",
 	"authors": [
@@ -19,7 +19,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
-		"minecraft": ">=1.20.5",
+		"minecraft": ">=1.17",
 		"java": ">=21"
 	}
 }
