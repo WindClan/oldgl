@@ -8,6 +8,7 @@ import net.minecraft.client.util.Window;
 import org.spongepowered.asm.mixin.injection.At;
 import static org.lwjgl.glfw.GLFW.*;
 import static com.notbronwyn.OldGL.Config.*;
+import static com.notbronwyn.OldGL.Output.*;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
@@ -33,6 +34,6 @@ public class WindowMixin {
 		glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GLFW_FALSE);
 		glfwWindowHint(GLFW_CONTEXT_CREATION_API, GLFW_NATIVE_CONTEXT_API);
 
-		System.out.println("patched window hints!");
+		print("Patched window hints!");
 	}
 }
