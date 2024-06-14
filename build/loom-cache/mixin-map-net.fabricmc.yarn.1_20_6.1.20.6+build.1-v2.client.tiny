@@ -1,3 +1,0 @@
-v1	named	intermediary
-FIELD	com/featherwhisker/OldGL/mixins/SplashTextResourceSupplierMixin	Ljava/util/List;	splashTexts	field_17906
-FIELD	com/featherwhisker/OldGL/mixins/SplashTextResourceSupplierMixin	Lnet/minecraft/util/math/random/Random;	RANDOM	field_17905
