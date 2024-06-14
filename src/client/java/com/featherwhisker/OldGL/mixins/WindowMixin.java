@@ -1,4 +1,4 @@
-package com.notbronwyn.OldGL.mixins;
+package com.featherwhisker.OldGL.mixins;
 
 
 import net.fabricmc.api.EnvType;
@@ -7,8 +7,8 @@ import org.spongepowered.asm.mixin.Mixin;
 import net.minecraft.client.util.Window;
 import org.spongepowered.asm.mixin.injection.At;
 import static org.lwjgl.glfw.GLFW.*;
-import static com.notbronwyn.OldGL.Config.*;
-import static com.notbronwyn.OldGL.Output.*;
+import static com.featherwhisker.OldGL.Config.*;
+import static com.featherwhisker.OldGL.Output.*;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 

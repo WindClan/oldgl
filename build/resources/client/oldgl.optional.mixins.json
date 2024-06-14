@@ -1,0 +1,11 @@
+{
+	"required": false,
+	"package": "com.featherwhisker.OldGL.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"SplashTextResourceSupplierMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

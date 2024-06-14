@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "oldgl",
+	"version": "0.3.1",
+	"name": "OldGL",
+	"description": "Downgrades Minecraft's OpenGL",
+	"authors": [
+		"Featherwhisker"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/oldgl",
+		"sources": "https://github.com/windclan/oldgl"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oldgl/icon.png",
+	"environment": "*",
+	"mixins": [
+		"oldgl.mixins.json",
+		"oldgl.optional.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.17",
+		"java": ">=17"
+	}
+}

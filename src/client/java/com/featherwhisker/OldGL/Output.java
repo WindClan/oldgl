@@ -1,4 +1,4 @@
-package com.notbronwyn.OldGL;
+package com.featherwhisker.OldGL;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,4 +1,4 @@
-package com.notbronwyn.OldGL.mixins;
+package com.featherwhisker.OldGL.mixins;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.List;
 import java.util.Objects;
 
-import static com.notbronwyn.OldGL.Config.OGL_SPLASH;
+import static com.featherwhisker.OldGL.Config.OGL_SPLASH;
 
 @Environment(EnvType.CLIENT)
 @Mixin(SplashTextResourceSupplier.class)

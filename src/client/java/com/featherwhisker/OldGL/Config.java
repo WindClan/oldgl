@@ -1,7 +1,4 @@
-package com.notbronwyn.OldGL;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+package com.featherwhisker.OldGL;
 
 public class Config {
     public static final int OGL_MAJOR = 3;
